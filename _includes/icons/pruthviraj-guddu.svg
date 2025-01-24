@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <title>Pruthviraj</title>
+
+  <!-- Flower Center -->
+  <circle cx="50" cy="50" r="10" fill="blue" />
+
+  <!-- Inner Petals (converted from paths) -->
+  <circle cx="50" cy="25" r="7" fill="darkred" />
+  <circle cx="70" cy="40" r="7" fill="darkred" />
+  <circle cx="70" cy="60" r="7" fill="darkred" />
+  <circle cx="50" cy="75" r="7" fill="darkred" />
+  <circle cx="30" cy="60" r="7" fill="darkred" />
+  <circle cx="30" cy="40" r="7" fill="darkred" />
+
+  <!-- Rotated Inner Petals for additional layering -->
+  <g transform="rotate(15 50 50)">
+    <circle cx="50" cy="25" r="7" fill="darkred" />
+    <circle cx="70" cy="40" r="7" fill="darkred" />
+    <circle cx="70" cy="60" r="7" fill="darkred" />
+    <circle cx="50" cy="75" r="7" fill="darkred" />
+    <circle cx="30" cy="60" r="7" fill="darkred" />
+    <circle cx="30" cy="40" r="7" fill="darkred" />
+  </g>
+
+  <!-- Outer Petals (converted from paths) -->
+  <circle cx="50" cy="10" r="12" fill="red" />
+  <circle cx="85" cy="25" r="12" fill="red" />
+  <circle cx="85" cy="75" r="12" fill="red" />
+  <circle cx="50" cy="90" r="12" fill="red" />
+  <circle cx="15" cy="75" r="12" fill="red" />
+  <circle cx="15" cy="25" r="12" fill="red" />
+
+  <!-- Rotated Outer Petals for more symmetry -->
+  <g transform="rotate(10 50 50)">
+    <circle cx="50" cy="10" r="12" fill="red" />
+    <circle cx="85" cy="25" r="12" fill="red" />
+    <circle cx="85" cy="75" r="12" fill="red" />
+    <circle cx="50" cy="90" r="12" fill="red" />
+    <circle cx="15" cy="75" r="12" fill="red" />
+    <circle cx="15" cy="25" r="12" fill="red" />
+  </g>
+
+  <!-- Even Larger Outer Petals (converted from paths) -->
+  <circle cx="50" cy="5" r="16" fill="darkred" />
+  <circle cx="90" cy="20" r="16" fill="darkred" />
+  <circle cx="90" cy="80" r="16" fill="darkred" />
+  <circle cx="50" cy="95" r="16" fill="darkred" />
+  <circle cx="10" cy="80" r="16" fill="darkred" />
+  <circle cx="10" cy="20" r="16" fill="darkred" />
+
+  <!-- Rotated Outer Layer for Full Rose Effect -->
+  <g transform="rotate(5 50 50)">
+    <circle cx="50" cy="5" r="16" fill="darkred" />
+    <circle cx="90" cy="20" r="16" fill="darkred" />
+    <circle cx="90" cy="80" r="16" fill="darkred" />
+    <circle cx="50" cy="95" r="16" fill="darkred" />
+    <circle cx="10" cy="80" r="16" fill="darkred" />
+    <circle cx="10" cy="20" r="16" fill="darkred" />
+  </g>
+</svg>

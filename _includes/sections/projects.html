@@ -1,0 +1,38 @@
+<section class="section">
+  {% if include.title %}
+  <h2 class="section__title">
+    {{ include.title | append: ' Technical Skills' }}
+  </h2>
+  {% endif %}
+  <ul class="projects">
+    <li>
+      <strong>Programming Languages:</strong> Java, Python, C, SQL, HTML/CSS,
+      MIPS Assembly
+    </li>
+    <li>
+      <strong>Software Development:</strong> Object-Oriented Programming (OOP),
+      Data Structures & Algorithms, Software Design
+    </li>
+    <li>
+      <strong>Tools & Frameworks:</strong> IntelliJ, Visual Studio Code,
+      PyCharm, Eclipse, Postman, SOAPUI, Keil microVision, Cadence, MATLAB,
+      Multisim, NetSim, Arduino, Putty, SQL Developer, Jira
+    </li>
+    <li>
+      <strong>Data Analysis & Scientific Computing:</strong> NumPy, Pandas,
+      Jupyter Notebook
+    </li>
+    <li><strong>Operating Systems:</strong> Windows, Unix</li>
+    <li>
+      <strong>Testing & QA:</strong> Application Lifecycle Management (ALM),
+      Sanity Testing, System Integration Testing, Regression Testing
+    </li>
+    <li><strong>Languages:</strong> English (Proficient), Marathi, Hindi</li>
+    <li><strong>Documentation & Publishing:</strong> LaTeX</li>
+  </ul>
+  {% if include.button-text %}
+  <a href="{{ include.button-url }}" class="button"
+    >{{ include.button-text }}</a
+  >
+  {% endif %}
+</section>
