@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/static/styles.css">  <!-- Link to your CSS file -->
+</head>
+<body>
+
+    <div class="container">
+        <div class="sidebar">
+            <!-- Include the sidebar component here -->
+            {% include '_includes/components/sidebar.html' %}
+        </div>
+
+        <div class="content">
+            <!-- This is where the content will be injected by child templates -->
+            {% block content %}
+            {% endblock %}
+        </div>
+    </div>
+
+</body>
+</html>

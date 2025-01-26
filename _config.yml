@@ -1,0 +1,6 @@
+# _config.yml
+title: My Website
+description: A cool website
+baseurl: "/PortfolioSplits/"  # Leave this empty unless you're using a subfolder like /my-website
+url: "https://pruthviraj-guddu.github.io"  # Replace with your GitHub Pages URL
+theme: jekyll-theme-minimal  # Or choose another theme or none
